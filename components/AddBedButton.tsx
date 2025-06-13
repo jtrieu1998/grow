@@ -1,5 +1,5 @@
 // import Ionicons from "@expo/vector-icons/Ionicons";
-import { View, StyleSheet, Button, TouchableHighlight, Alert } from "react-native";
+import { View, StyleSheet, TouchableHighlight, Alert } from "react-native";
 import AntDesign from "@expo/vector-icons/AntDesign";
 
 
@@ -17,12 +17,12 @@ export default function App() {
 }
 
 const createTwoButtonAlert = () =>
-  Alert.alert("Alert Title", "My Alert Msg", [
-    {
-      text: "Cancel",
-      onPress: () => console.log("Cancel Pressed"),
-      style: "cancel",
-    },
+  Alert.alert("Add bed button", "It's cumming", [
+    // {
+    //   text: "Cancel",
+    //   onPress: () => console.log("Cancel Pressed"),
+    //   style: "cancel",
+    // },
     { text: "OK", onPress: () => console.log("OK Pressed") },
   ]);
 
